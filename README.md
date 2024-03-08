@@ -12,14 +12,18 @@ https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html
 
 ## PG 알고리즘이란?
 
+
 ## 그래프
+각 데이터는 20step의 movig average를 적용한 데이터입니다.
+|Length|Loss|Reward|
+|---|---|---|
+|<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/checkpoints/2023-12-14T23-31-58/length_plot.jpg">|<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/checkpoints/2023-12-14T23-31-58/loss_plot.jpg"> |<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/checkpoints/2023-12-14T23-31-58/reward_plot.jpg">|
+
 
 ## 동영상
 
-왼쪽은 stage 1-1을 플레이하는 영상이고 오른쪽은 stage 1-2를 플레이하는 영상입니다.
-stage1-1을 기준으로 학습했기에 수준 차이를 보입니다.
-<p align="center" width = "100%">
-  <img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/stage1_paly-3.gif" width = "40%" >
-             
-  <img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/stage2_paly.gif" width = "40%">
-</p>
+stage1-1에서 학습사여 stage1-2에서는 학습 수준이 부족합니다.<br>
+
+|stage1-1|stage1-2|
+|---|---|
+|<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/stage1_paly-3.gif" >|<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/stage2_paly.gif">|
