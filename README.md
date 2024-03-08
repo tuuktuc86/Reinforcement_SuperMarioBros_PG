@@ -15,3 +15,11 @@ https://tutorials.pytorch.kr/intermediate/mario_rl_tutorial.html
 ## 그래프
 
 ## 동영상
+
+왼쪽은 stage 1-1을 플레이하는 영상이고 오른쪽은 stage 1-2를 플레이하는 영상입니다.
+stage1-1을 기준으로 학습했기에 수준 차이를 보입니다.
+<p align="center" width = "100%">
+  <img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/stage1_paly-3.gif" width = "40%" >
+             
+  <img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/stage2_paly.gif" width = "40%">
+</p>
