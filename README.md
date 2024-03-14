@@ -16,6 +16,13 @@ Super Mario Bros는 강화학습 알고리즘의 테스트 환경을 많이 사�
   <img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PG/blob/main/play_video/model.png">
 </figure>
 
+# policy gradient
+
+david silver 강의와 팡요랩을 참고하였습니다.
+|policy gradient theorom|monte carlo policy gradient|
+|---|---|
+|<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PolicyGradient/blob/main/play_video/policy%20gradient%20theorem.jpg">|<img src="https://github.com/tuuktuc86/Reinforcement_SuperMarioBros_PolicyGradient/blob/main/play_video/monte-carlo%20policy%20gradient.jpg"> |
+
 ## 그래프
 각 데이터는 20step의 movig average를 적용한 데이터입니다.
 |Length|Loss|Reward|
